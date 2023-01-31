@@ -1,0 +1,14 @@
+name: mediumblogbringpysparkonnxtosnowpark
+channels:
+  - conda
+  - snowflake
+dependencies:
+  - python=3.8
+  - ipykernel
+  - snowflake-snowpark-python
+  - pip
+  - pip:
+    - jupyter
+    - pandas
+    - cachetools==4.2.2
+    
